@@ -1,0 +1,4 @@
+repository "Cat Clicker/CatClicker@5774131962564@cloud"
+  path "/"
+    br "/main"
+    co "/main"
