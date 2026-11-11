@@ -1,0 +1,34 @@
+[2026-11-11T17:01:43.913Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.3f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 27916 --ipc-path Unity-Upm-27916 -l 2 --log-file C:\\Users\\loh44\\Documents\\GitHub\\CatClicker/Logs/upm.log
+[2026-11-11T17:01:43.953Z][INFO] IPC server started (IPC path=Unity-Upm-27916).
+[2026-11-11T17:01:43.954Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-27916.
+[2026-11-11T17:01:46.275Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-11T17:01:46.377Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-11T17:01:46.387Z][INFO] config:project:get-registries --> 200 (10 ms)
+[2026-11-11T17:01:46.668Z][INFO] project:list-packages --> 200 (393 ms)
+[2026-11-11T17:01:46.928Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-11T17:01:46.997Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-11-11T17:01:47.321Z][INFO] project:list-packages --> 200 (393 ms)
+[2026-11-11T17:03:24.494Z][WARN] Requested version [1.0.3] for package [com.unity.settings-manager] overridden by minimum version [2.1.1].
+[2026-11-11T17:03:24.499Z][INFO] project:resolve-packages --> 200 (97502 ms)
+[2026-11-11T17:06:14.517Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-11T17:06:14.589Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-11T17:06:15.162Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-11T17:06:15.303Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-11T17:06:15.459Z][INFO] config:project:get-registries --> 200 (157 ms)
+[2026-11-11T17:06:15.596Z][INFO] project:list-packages --> 200 (1007 ms)
+[2026-11-11T17:06:15.605Z][INFO] project:list-packages --> 200 (1089 ms)
+[2026-11-11T17:06:15.713Z][INFO] project:list-packages --> 200 (551 ms)
+[2026-11-11T17:06:44.914Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.collab-proxy"
+}
+[2026-11-11T17:06:45.280Z][INFO] packages:get-packageinfo --> 200 (366 ms)
+[2026-11-11T17:06:48.903Z][INFO] Shutting down UnityPackageManager.exe: parent process [27916] is no longer running.
